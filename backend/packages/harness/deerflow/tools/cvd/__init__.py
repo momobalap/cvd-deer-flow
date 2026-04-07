@@ -1,4 +1,4 @@
-from .neo4j_tool import neo4j_query_tool
-from .chroma_tool import chroma_query_tool
+from .neo4j_tool import neo4j_query
+from .chroma_tool import chroma_query
 
-__all__ = ["neo4j_query_tool", "chroma_query_tool"]
+__all__ = ["neo4j_query", "chroma_query"]
